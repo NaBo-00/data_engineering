@@ -1,0 +1,16 @@
+# Environment Variables
+.env
+
+# Ignore data folder
+data/
+
+# Ignore Python cache files
+dags/__pycache__/
+
+# Ignore logs
+logs/dag_id=taxi_data_pipeline/
+logs/dag_processor_manager/
+logs/scheduler/
+
+# Ignore plugins directory
+plugins/
