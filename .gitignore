@@ -15,3 +15,6 @@ logs/scheduler/
 
 # Ignore plugins directory
 plugins/
+
+# .gitattributes
+.gitattributes

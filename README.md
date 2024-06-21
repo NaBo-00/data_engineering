@@ -168,6 +168,12 @@ Path 2:
     <img src="./img/dashboard.png" alt="Dashboard Example" >
     </div>
 
+    - Monitor Pipeline Runs - Overview
+
+    <div align="center">
+    <img src="./img/successful_runs.png" alt="Pipeline Runs" >
+    </div>
+
 ## Installation Guide
 
 > [!NOTE]  
