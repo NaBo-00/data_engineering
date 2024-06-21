@@ -162,6 +162,12 @@ Path 2:
     <img src="./img/visualize.png" alt="Log: Visualize" width="450"  height="200">
     </div>
 
+    - Potential Superset Dashboard with the newly created charts and diagrams
+
+    <div align="center">
+    <img src="./img/dashboard.png" alt="Dashboard Example" >
+    </div>
+
 ## Installation Guide
 
 > [!NOTE]  
