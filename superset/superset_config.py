@@ -5,5 +5,3 @@ import os
 load_dotenv()
 
 SECRET_KEY = os.getenv('SECRET_KEY')
-
-#SECRET_KEY = 'gyhJXxaChdWLmbOmJSvJ6ImSkeQKzAZNnanMbcpo8Ok='

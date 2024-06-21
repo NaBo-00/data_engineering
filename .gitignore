@@ -3,6 +3,7 @@
 
 # Ignore data folder
 data/
+data_examples/
 
 # Ignore Python cache files
 dags/__pycache__/
