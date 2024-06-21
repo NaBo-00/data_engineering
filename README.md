@@ -182,8 +182,13 @@ Path 2:
 Read the [LICENSE.md](https://github.com/NaBo-00/data_engineering/blob/master/LICENSE) document for information about the licensing of this project.
 
 <ol>
-    <li>Choose a location for the project and open the command line.</li>
-    <li>Clone the repository from GitHub:</li>
+<li>Choose a location for the project and open the command line.</li><br>
+
+<li>Install git Large File Storage</li>
+
+```git lfs install```
+
+<li>Clone the repository from GitHub:</li>
 
 ```git clone https://github.com/NaBo-00/data_engineering.git```
 
@@ -191,13 +196,20 @@ Read the [LICENSE.md](https://github.com/NaBo-00/data_engineering/blob/master/LI
 
 ```cd data_engineering```
 
+
+
+<li>Pull large data files: </li>
+
+```git lfs pull```
+
 <li>Unzip the data from the data_examples folder and move the data file you want to run the pipeline with inside the data/ directory: </li>
 
-- Mac:
-```cd data_examples && unzip taxi_data_examples.zip```
+- Extract Data from zip
+    - Mac:
+    ```cd data_examples && unzip taxi_data_examples.zip```
 
-- Win:
-```cd data_examples && tar -xf taxi_data_examples.zip```
+    - Win:
+    ```cd data_examples && tar -xf taxi_data_examples.zip```
 
 - Drag and Drop the required data file inside the data/ directory or use the following command:
     - Mac:
