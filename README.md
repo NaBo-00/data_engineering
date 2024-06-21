@@ -213,8 +213,8 @@ Read the [LICENSE.md](https://github.com/NaBo-00/data_engineering/blob/master/LI
 
 <li>Ensure that all configurations are correct and the services are running by accessing airflow in your web browser at http://localhost:8088, superset in another web browser or incognito window at http://localhost:8089 and logging into the services using your previously defined credentials.</li>
 
->[!INFO]
->When logging into airflow the first time you need to activate the "taxi_data_pipeline.py" DAG by toggling its slider button
+> [!Important]
+> When logging into airflow the first time you need to activate the "taxi_data_pipeline.py" DAG by toggling its slider button
 </ol>
 
 ## Bugs and Feature Requests
