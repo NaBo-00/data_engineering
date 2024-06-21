@@ -2,7 +2,7 @@
 .env
 
 # Ignore data folder
-data/
+data/*
 #data_examples/
 
 # Ignore Python cache files
