@@ -3,7 +3,7 @@
 
 # Ignore data folder
 data/
-data_examples/
+#data_examples/
 
 # Ignore Python cache files
 dags/__pycache__/
@@ -15,6 +15,3 @@ logs/scheduler/
 
 # Ignore plugins directory
 plugins/
-
-# .gitattributes
-.gitattributes
