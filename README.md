@@ -32,10 +32,10 @@
 
 ## Introduction
 ### Description:
-The NYC Taxi Data Engineering project is batch pipeline designed to ingest, process, and visualize NYC Taxi Trip data. Using different microservices such as Apache Spark, Apache Airflow, Apache Superset, and PostgreSQL, all containerized with docker, offers as well as ensures scalability, reliability, maintainability, security, and monitoring.
+The NYC Taxi Data Engineering project is a batch pipeline designed to ingest, process, and visualize NYC Taxi Trip data. The utilization of various microservices, including PostgreSQL, Apache Spark, Apache Airflow, and Apache Superset, all of which are containerized using docker, ensures scalability, security, maintainability, and monitoring.
 
 ### Goal:
-The goal of the project is to provide a comprehensive batch pipeline specifically for telematics data from NYC taxis, enabling users to derive insights and make data-driven decisions or integrate a ML application. The project aims to facilitate an in-depth understanding use of multiple microservices and their role and operations for creating a batch pipeline.
+The goal of the project is to provide a comprehensive batch pipeline specifically for telematics data from NYC taxis, enabling users to derive insights and make data-driven decisions or integrate a ML application. The project aims to facilitate an in-depth understanding of the usage of multiple microservices and their role and operations for creating a batch pipeline.
 
 ## Technologies, Libraries, Tools and Architecture
 ### Technologies and Libraries:
