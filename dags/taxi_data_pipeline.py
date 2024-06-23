@@ -114,7 +114,7 @@ with DAG(
     'taxi_data_pipeline',
     default_args=default_args,
     description='A DAG to ingest, process, and store taxi trip data',
-    schedule_interval='@daily',  # Production: '@monthly' Testing: Run daily with '@daily' or use customized CRON job notation
+    schedule_interval='@monthly',  # Production: '@monthly' Testing: Run daily with '@daily' or use customized CRON job notation
     start_date=datetime(2024, 6, 1),
     catchup=False,
 ) as dag:
