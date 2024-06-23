@@ -238,8 +238,7 @@ Read the [LICENSE.md](https://github.com/NaBo-00/data_engineering/blob/master/LI
 
 - ```schedule_interval='@daily'  # Run Pipeline daily```<br>
 - ```schedule_interval='0 */2 * * *' # Custom Cronjob: Run Pipeline every 2nd hour```
-- > [!NOTE]  
-  > After selecting a DAG you can trigger it manually by clicking the play button in the top right corner of the Airflow UI.  <div align="center"><img src="./img/trigger_dag.png" alt="Pipeline Runs" ></div>
+- :information_source: After selecting a DAG you can trigger it manually by clicking the play button in the top right corner of the Airflow UI.  <div align="center"><img src="./img/trigger_dag.png" alt="Pipeline Runs" ></div>
 
 
 </ol>
