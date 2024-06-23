@@ -233,6 +233,17 @@ Read the [LICENSE.md](https://github.com/NaBo-00/data_engineering/blob/master/LI
 
 > [!Important]
 > When logging into airflow the first time you need to activate the "taxi_data_pipeline.py" DAG by toggling its slider button
+
+<li>The pipeline is set to run "@monthly" in production, but it can easily be changed for testing purposes by setting the following variable to your prefered intervall e.g, "@daily" or a custom <a href="https://crontab.guru/">cronjob</a>. However the pipeline can also be triggered manually in the Aiflow UI:  </li>
+
+- ```schedule_interval='@daily'  # Run Pipeline daily```<br>
+- ```schedule_interval='0 */2 * * *' # Custom Cronjob: Run Pipeline every 2nd hour```
+- > [!NOTE]  
+    > After selecting a DAG you can trigger it manually by clicking the play button in the top right corner of the Airflow UI.
+    <img src="./img/trigger_dag.png" alt="Pipeline Runs" >
+    </div>
+
+
 </ol>
 
 ## Bugs and Feature Requests
